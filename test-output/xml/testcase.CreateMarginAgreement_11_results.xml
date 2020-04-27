@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test12"
+           tests="4"
+           failures="2"
+           errors="0"
+           skipped="0"
+           time="417.926">
+  <properties />
+            <testcase name="test03_check" time="22.716" classname="testcase.CreateMarginAgreement_11">
+                <failure type="org.openqa.selenium.NoSuchElementException"
+                  message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/div[1]/div[2]/ul/table/tbody/tr[2]/td[10]/span[1]/a&quot;}
+  (Session info: chrome=80.0.3987.163)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
+System info: host: &apos;DESKTOP-SPO73RG&apos;, ip: &apos;172.18.18.220&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}), userDataDir=C:\Users\Jomi\AppData\Local\Temp\scoped_dir1260_905132663}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=XP, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:55933}, acceptInsecureCerts=false, browserVersion=80.0.3987.163, browserName=chrome, javascriptEnabled=true, platformName=XP, setWindowRect=true}]
+Session ID: 16e5e4caf7fa3a64c4a1011561eb7293
+*** Element info: {Using=xpath, value=/html/body/div[1]/div[2]/ul/table/tbody/tr[2]/td[10]/span[1]/a}"
+              >
+<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div[2]/ul/table/tbody/tr[2]/td[10]/span[1]/a"}
+  (Session info: chrome=80.0.3987.163)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'DESKTOP-SPO73RG', ip: '172.18.18.220', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}), userDataDir=C:\Users\Jomi\AppData\Local\Temp\scoped_dir1260_905132663}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=XP, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:55933}, acceptInsecureCerts=false, browserVersion=80.0.3987.163, browserName=chrome, javascriptEnabled=true, platformName=XP, setWindowRect=true}]
+Session ID: 16e5e4caf7fa3a64c4a1011561eb7293
+*** Element info: {Using=xpath, value=/html/body/div[1]/div[2]/ul/table/tbody/tr[2]/td[10]/span[1]/a}
+  sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+  sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+  sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+  java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+  org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+  org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+  org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+  org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+  org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
+  org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:518)
+  org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
+  org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+  org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+  com.sun.proxy.$Proxy6.click(Unknown Source)
+  pagefactory.AgreementReviewFactory.setReviewpassbotton(AgreementReviewFactory.java:45)
+  pageobject.AgreementReviewObject.agreementReview_pass(AgreementReviewObject.java:40)
+  utils.ReviewAgreement.agreementreview_pass(ReviewAgreement.java:30)
+  testcase.CreateMarginAgreement_11.test03_check(CreateMarginAgreement_11.java:60)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:131)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:658)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:792)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1103)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:140)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+  org.testng.TestRunner.privateRun(TestRunner.java:739)
+  org.testng.TestRunner.run(TestRunner.java:589)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:398)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:392)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:354)
+  org.testng.SuiteRunner.run(SuiteRunner.java:302)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1145)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1067)
+  org.testng.TestNG.runSuites(TestNG.java:997)
+  org.testng.TestNG.run(TestNG.java:965)
+  com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+  com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="test04_buyerdelisting" time="354.760" classname="testcase.CreateMarginAgreement_11">
+                <failure type="org.openqa.selenium.NoSuchElementException"
+                  message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;form_step2&apos;]/div[2]/div/p/a[1]&quot;}
+  (Session info: chrome=80.0.3987.163)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
+System info: host: &apos;DESKTOP-SPO73RG&apos;, ip: &apos;172.18.18.220&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}), userDataDir=C:\Users\Jomi\AppData\Local\Temp\scoped_dir31876_509850164}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=XP, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:55984}, acceptInsecureCerts=false, browserVersion=80.0.3987.163, browserName=chrome, javascriptEnabled=true, platformName=XP, setWindowRect=true}]
+Session ID: 8f53322106f33f93e531aa83e137dd72
+*** Element info: {Using=xpath, value=//*[@id=&apos;form_step2&apos;]/div[2]/div/p/a[1]}"
+              >
+<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='form_step2']/div[2]/div/p/a[1]"}
+  (Session info: chrome=80.0.3987.163)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'DESKTOP-SPO73RG', ip: '172.18.18.220', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}), userDataDir=C:\Users\Jomi\AppData\Local\Temp\scoped_dir31876_509850164}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=XP, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:55984}, acceptInsecureCerts=false, browserVersion=80.0.3987.163, browserName=chrome, javascriptEnabled=true, platformName=XP, setWindowRect=true}]
+Session ID: 8f53322106f33f93e531aa83e137dd72
+*** Element info: {Using=xpath, value=//*[@id='form_step2']/div[2]/div/p/a[1]}
+  sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+  sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+  sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+  java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+  org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+  org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+  org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+  org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+  org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
+  org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:518)
+  org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
+  org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+  org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+  com.sun.proxy.$Proxy6.click(Unknown Source)
+  pagefactory.Create_MarginorderFactory.setConfirmagreementbotton(Create_MarginorderFactory.java:1047)
+  pageobject.PlaceAgreementObject.BuyerPlaceAgreementpass(PlaceAgreementObject.java:40)
+  utils.BuyerMarginAgreement.buyerMarginagreement_buyerreceived(BuyerMarginAgreement.java:30)
+  testcase.CreateMarginAgreement_11.test04_buyerdelisting(CreateMarginAgreement_11.java:68)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:131)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:658)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:792)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1103)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:140)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+  org.testng.TestRunner.privateRun(TestRunner.java:739)
+  org.testng.TestRunner.run(TestRunner.java:589)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:398)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:392)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:354)
+  org.testng.SuiteRunner.run(SuiteRunner.java:302)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1145)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1067)
+  org.testng.TestNG.runSuites(TestNG.java:997)
+  org.testng.TestNG.run(TestNG.java:965)
+  com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+  com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
+]]>
+      </failure>
+
+          </testcase>
+  
+  
+            <testcase name="test01_loginfront_sell" time="11.298" classname="testcase.CreateMarginAgreement_11" />
+                <testcase name="test02_createbid" time="29.152" classname="testcase.CreateMarginAgreement_11" />
+      
+</testsuite>

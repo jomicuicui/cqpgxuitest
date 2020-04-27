@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
+<head>
+  <title>Test Results Report - test12</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="reportng.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="reportng.js"></script>
+</head>
+<body>
+<h1>test12</h1>
+<p>
+  Test duration: 31.520s
+</p>
+
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header failed">Failed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">testcase.CreateMarginBid_02</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  test02_createbid
+      </td>
+  <td class="duration">
+    13.900s
+  </td>
+  <td class="result">
+        
+    
+        
+
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>java.lang.NullPointerException</b></a><br />
+    <div class="stackTrace" id="exception-0">
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)<br />
+              com.sun.proxy.$Proxy6.sendKeys(Unknown Source)<br />
+              pagefactory.Create_MarginorderFactory.setOrderName(Create_MarginorderFactory.java:180)<br />
+              pageobject.CreateMarginBidObject.CreateMarginBid1(CreateMarginBidObject.java:60)<br />
+              testcase.CreateMarginBid_02.test02_createbid(CreateMarginBid_02.java:71)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:131)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:658)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:792)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1103)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:140)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:739)<br />
+              org.testng.TestRunner.run(TestRunner.java:589)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:398)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:392)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:354)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:302)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1145)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1067)<br />
+              org.testng.TestNG.runSuites(TestNG.java:997)<br />
+              org.testng.TestNG.run(TestNG.java:965)<br />
+              com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)<br />
+              com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  test03_reviewpass
+      </td>
+  <td class="duration">
+    2.366s
+  </td>
+  <td class="result">
+        
+    
+        
+
+        <a href="javascript:toggleElement('exception-1', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status<br/>
+from disconnected: received Inspector.detached event<br/>
+&nbsp; (Session info: chrome=81.0.4044.113)<br/>
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;<br/>
+System info: host: &apos;DESKTOP-SPO73RG&apos;, ip: &apos;172.18.18.220&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;<br/>
+Driver info: org.openqa.selenium.chrome.ChromeDriver<br/>
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}), userDataDir=C:\Users\Jomi\AppData\Local\Temp\scoped_dir8836_486890082}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=XP, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:50549}, acceptInsecureCerts=false, browserVersion=81.0.4044.113, browserName=chrome, javascriptEnabled=true, platformName=XP, setWindowRect=true, webauthn:virtualAuthenticators=true}]<br/>
+Session ID: c24488373c66ceff8581cf77b6491f2a</b></a><br />
+    <div class="stackTrace" id="exception-1">
+              sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+              sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
+              java.lang.reflect.Constructor.newInstance(Constructor.java:423)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)<br />
+              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:370)<br />
+              utils.ReviewBid.loginback(ReviewBid.java:22)<br />
+              testcase.CreateMarginBid_02.test03_reviewpass(CreateMarginBid_02.java:79)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:131)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:658)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:792)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1103)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:140)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:739)<br />
+              org.testng.TestRunner.run(TestRunner.java:589)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:398)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:392)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:354)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:302)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1145)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1067)<br />
+              org.testng.TestNG.runSuites(TestNG.java:997)<br />
+              org.testng.TestNG.run(TestNG.java:965)<br />
+              com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)<br />
+              com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  test04_buyerbid
+      </td>
+  <td class="duration">
+    2.094s
+  </td>
+  <td class="result">
+        
+    
+        
+
+        <a href="javascript:toggleElement('exception-2', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.SessionNotCreatedException: session not created<br/>
+from disconnected: received Inspector.detached event<br/>
+&nbsp; (Session info: chrome=81.0.4044.113)<br/>
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;<br/>
+System info: host: &apos;DESKTOP-SPO73RG&apos;, ip: &apos;172.18.18.220&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;<br/>
+Driver info: driver.version: ChromeDriver<br/>
+remote stacktrace: Backtrace:<br/>
+	Ordinal0 [0x015D5F73+2449267]<br/>
+	Ordinal0 [0x01508361+1606497]<br/>
+	Ordinal0 [0x013FF969+522601]<br/>
+	Ordinal0 [0x013F8179+491897]<br/>
+	Ordinal0 [0x013F7D8C+490892]<br/>
+	Ordinal0 [0x013F7686+489094]<br/>
+	Ordinal0 [0x013F6C8C+486540]<br/>
+	Ordinal0 [0x013F6EC5+487109]<br/>
+	Ordinal0 [0x013F6905+485637]<br/>
+	Ordinal0 [0x013FB834+505908]<br/>
+	Ordinal0 [0x013F68C2+485570]<br/>
+	Ordinal0 [0x013F7329+488233]<br/>
+	Ordinal0 [0x013F6C8C+486540]<br/>
+	Ordinal0 [0x013F6EC5+487109]<br/>
+	Ordinal0 [0x013F6905+485637]<br/>
+	Ordinal0 [0x013FADB7+503223]<br/>
+	Ordinal0 [0x013F68C2+485570]<br/>
+	Ordinal0 [0x013F7329+488233]<br/>
+	Ordinal0 [0x013F6C8C+486540]<br/>
+	Ordinal0 [0x013F6EC5+487109]<br/>
+	Ordinal0 [0x013F6905+485637]<br/>
+	Ordinal0 [0x013F31AC+471468]<br/>
+	Ordinal0 [0x013F68C2+485570]<br/>
+	Ordinal0 [0x013F6817+485399]<br/>
+	Ordinal0 [0x01400600+525824]<br/>
+	Ordinal0 [0x013ACBB9+183225]<br/>
+	Ordinal0 [0x013ABF2D+180013]<br/>
+	Ordinal0 [0x013A9E5B+171611]<br/>
+	Ordinal0 [0x01391DD8+73176]<br/>
+	Ordinal0 [0x01392E50+77392]<br/>
+	Ordinal0 [0x01392DE9+77289]<br/>
+	Ordinal0 [0x0151D8D7+1693911]<br/>
+	GetHandleVerifier [0x01674036+522726]<br/>
+	GetHandleVerifier [0x01673D74+522020]<br/>
+	GetHandleVerifier [0x01689187+609079]<br/>
+	GetHandleVerifier [0x016748A6+524886]<br/>
+	Ordinal0 [0x01515CBC+1662140]<br/>
+	Ordinal0 [0x0151F23B+1700411]<br/>
+	Ordinal0 [0x0151F3A3+1700771]<br/>
+	Ordinal0 [0x01535215+1790485]<br/>
+	BaseThreadInitThunk [0x75270419+25]<br/>
+	RtlGetAppContainerNamedObjectPath [0x776C66DD+237]<br/>
+	RtlGetAppContainerNamedObjectPath [0x776C66AD+189]<br/>
+</b></a><br />
+    <div class="stackTrace" id="exception-2">
+              sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+              sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
+              java.lang.reflect.Constructor.newInstance(Constructor.java:423)<br />
+              org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)<br />
+              org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)<br />
+              org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$24(ProtocolHandshake.java:359)<br />
+              java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)<br />
+              java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)<br />
+              java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)<br />
+              java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)<br />
+              java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)<br />
+              java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)<br />
+              java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)<br />
+              java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)<br />
+              java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)<br />
+              org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:362)<br />
+              org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)<br />
+              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:255)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:237)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:138)<br />
+              org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)<br />
+              org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)<br />
+              org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)<br />
+              utils.BuyerMarginbid.loginfront_buyer(BuyerMarginbid.java:20)<br />
+              testcase.CreateMarginBid_02.test04_buyerbid(CreateMarginBid_02.java:87)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:131)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:658)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:792)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1103)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:140)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:739)<br />
+              org.testng.TestRunner.run(TestRunner.java:589)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:398)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:392)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:354)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:302)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1145)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1067)<br />
+              org.testng.TestNG.runSuites(TestNG.java:997)<br />
+              org.testng.TestNG.run(TestNG.java:965)<br />
+              com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)<br />
+              com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)<br />
+                </div>
+      </td>
+</tr>
+      </table>
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header passed">Passed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">testcase.CreateMarginBid_02</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  test01_loginfront_sell
+      </td>
+  <td class="duration">
+    13.160s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+      </table>
+  
+</body>
+</html>

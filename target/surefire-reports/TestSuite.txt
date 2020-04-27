@@ -1,0 +1,62 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 739.083 s <<< FAILURE! - in TestSuite
+test02_createbid(testcase.CreateMarginBid_01)  Time elapsed: 1.604 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+Element <a href="#"> could not be scrolled into view
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'DESKTOP-SPO73RG', ip: '172.18.18.220', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Windows\Temp\rust_mozprofilehCdt6Y, rotatable=false, moz:geckodriverVersion=0.26.0, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=XP, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, browserVersion=75.0, moz:shutdownTimeout=60000, platformVersion=10.0, moz:processID=8708, browserName=firefox, javascriptEnabled=true, moz:buildID=20200403170909, platformName=XP, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: 436cdd46-83d9-45be-a9d8-052fc57b6d11
+	at testcase.CreateMarginBid_01.test02_createbid(CreateMarginBid_01.java:65)
+
+test03_check(testcase.CreateMarginBid_01)  Time elapsed: 23.265 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='audit_not_pass']"}
+  (Session info: chrome=81.0.4044.122)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'DESKTOP-SPO73RG', ip: '172.18.18.220', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}), userDataDir=C:\Windows\TEMP\scoped_dir764_800485305}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=XP, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:37179}, acceptInsecureCerts=false, browserVersion=81.0.4044.122, browserName=chrome, javascriptEnabled=true, platformName=XP, setWindowRect=true, webauthn:virtualAuthenticators=true}]
+Session ID: 84a2e3f22bf4f53d3c7a61f1d976e6db
+*** Element info: {Using=xpath, value=//*[@id='audit_not_pass']}
+	at testcase.CreateMarginBid_01.test03_check(CreateMarginBid_01.java:74)
+
+test02_createbid(testcase.CreateMarginBid_02)  Time elapsed: 239.57 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/table/tbody/tr/td/div[2]/form/input[1]"}
+  (Session info: chrome=81.0.4044.122)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'DESKTOP-SPO73RG', ip: '172.18.18.220', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}), userDataDir=C:\Windows\TEMP\scoped_dir25296_433095776}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=XP, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:37231}, acceptInsecureCerts=false, browserVersion=81.0.4044.122, browserName=chrome, javascriptEnabled=true, platformName=XP, setWindowRect=true, webauthn:virtualAuthenticators=true}]
+Session ID: a82687ab75aed5d610c4d94405f37872
+*** Element info: {Using=xpath, value=/html/body/table/tbody/tr/td/div[2]/form/input[1]}
+	at testcase.CreateMarginBid_02.test02_createbid(CreateMarginBid_02.java:71)
+
+test03_reviewpass(testcase.CreateMarginBid_02)  Time elapsed: 61.814 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: chrome=81.0.4044.122)
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'DESKTOP-SPO73RG', ip: '172.18.18.220', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}), userDataDir=C:\Windows\TEMP\scoped_dir23244_171127660}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=XP, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:37737}, acceptInsecureCerts=false, browserVersion=81.0.4044.122, browserName=chrome, javascriptEnabled=true, platformName=XP, setWindowRect=true, webauthn:virtualAuthenticators=true}]
+Session ID: 94b55a6f413367662c7947919197284f
+	at testcase.CreateMarginBid_02.test03_reviewpass(CreateMarginBid_02.java:80)
+
+test04_buyerbid(testcase.CreateMarginBid_02)  Time elapsed: 38.795 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: chrome=81.0.4044.122)
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'DESKTOP-SPO73RG', ip: '172.18.18.220', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}), userDataDir=C:\Windows\TEMP\scoped_dir12148_726235572}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=XP, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:37876}, acceptInsecureCerts=false, browserVersion=81.0.4044.122, browserName=chrome, javascriptEnabled=true, platformName=XP, setWindowRect=true, webauthn:virtualAuthenticators=true}]
+Session ID: 003377f6a41930365c46ae9f0de1a37f
+	at testcase.CreateMarginBid_02.test04_buyerbid(CreateMarginBid_02.java:88)
+

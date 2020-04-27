@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="281011" started-at="2020-04-17T17:31:06 CST" finished-at="2020-04-17T17:35:47 CST">
+    <groups>
+    </groups>
+    <test name="test12" duration-ms="281011" started-at="2020-04-17T17:31:06 CST" finished-at="2020-04-17T17:35:47 CST">
+      <class name="testcase.CreateMarginBid_02">
+        <test-method status="PASS" signature="test01_loginfront_sell()[pri:0, instance:testcase.CreateMarginBid_02@646007f4]" name="test01_loginfront_sell" duration-ms="13826" started-at="2020-04-17T17:31:06 CST" finished-at="2020-04-17T17:31:20 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test01_loginfront_sell -->
+        <test-method status="PASS" signature="test02_createbid()[pri:0, instance:testcase.CreateMarginBid_02@646007f4]" name="test02_createbid" duration-ms="19627" started-at="2020-04-17T17:31:20 CST" finished-at="2020-04-17T17:31:40 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test02_createbid -->
+        <test-method status="PASS" signature="test03_reviewpass()[pri:0, instance:testcase.CreateMarginBid_02@646007f4]" name="test03_reviewpass" duration-ms="19345" started-at="2020-04-17T17:31:40 CST" finished-at="2020-04-17T17:31:59 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test03_reviewpass -->
+        <test-method status="PASS" signature="test04_buyerbid()[pri:0, instance:testcase.CreateMarginBid_02@646007f4]" name="test04_buyerbid" duration-ms="228176" started-at="2020-04-17T17:31:59 CST" finished-at="2020-04-17T17:35:47 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test04_buyerbid -->
+      </class> <!-- testcase.CreateMarginBid_02 -->
+    </test> <!-- test12 -->
+  </suite> <!-- Suite1 -->
+</testng-results>

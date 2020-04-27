@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="5" ignored="0" total="11" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="738373" started-at="2020-04-27T09:26:38 CST" finished-at="2020-04-27T09:38:56 CST">
+    <groups>
+    </groups>
+    <test name="test12" duration-ms="738373" started-at="2020-04-27T09:26:38 CST" finished-at="2020-04-27T09:38:56 CST">
+      <class name="testcase.CreateMarginBid_02">
+        <test-method status="PASS" signature="test01_loginfront_sell()[pri:0, instance:testcase.CreateMarginBid_02@2bbaf4f0]" name="test01_loginfront_sell" duration-ms="33311" started-at="2020-04-27T09:27:09 CST" finished-at="2020-04-27T09:27:42 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test01_loginfront_sell -->
+        <test-method status="FAIL" signature="test02_createbid()[pri:0, instance:testcase.CreateMarginBid_02@2bbaf4f0]" name="test02_createbid" duration-ms="239569" started-at="2020-04-27T09:27:42 CST" finished-at="2020-04-27T09:31:42 CST">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/table/tbody/tr/td/div[2]/form/input[1]"}
+  (Session info: chrome=81.0.4044.122)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'DESKTOP-SPO73RG', ip: '172.18.18.220', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}), userDataDir=C:\Windows\TEMP\scoped_dir25296_433095776}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=XP, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:37231}, acceptInsecureCerts=false, browserVersion=81.0.4044.122, browserName=chrome, javascriptEnabled=true, platformName=XP, setWindowRect=true, webauthn:virtualAuthenticators=true}]
+Session ID: a82687ab75aed5d610c4d94405f37872
+*** Element info: {Using=xpath, value=/html/body/table/tbody/tr/td/div[2]/form/input[1]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/table/tbody/tr/td/div[2]/form/input[1]"}
+  (Session info: chrome=81.0.4044.122)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'DESKTOP-SPO73RG', ip: '172.18.18.220', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}), userDataDir=C:\Windows\TEMP\scoped_dir25296_433095776}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=XP, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:37231}, acceptInsecureCerts=false, browserVersion=81.0.4044.122, browserName=chrome, javascriptEnabled=true, platformName=XP, setWindowRect=true, webauthn:virtualAuthenticators=true}]
+Session ID: a82687ab75aed5d610c4d94405f37872
+*** Element info: {Using=xpath, value=/html/body/table/tbody/tr/td/div[2]/form/input[1]}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:518)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy5.click(Unknown Source)
+at pagefactory.Create_MarginorderFactory.setSure(Create_MarginorderFactory.java:439)
+at pageobject.CreateMarginBidObject.CreateMarginBid1(CreateMarginBidObject.java:107)
+at testcase.CreateMarginBid_02.test02_createbid(CreateMarginBid_02.java:71)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:131)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:658)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:792)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1103)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:140)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:398)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:392)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:354)
+at org.testng.SuiteRunner.run(SuiteRunner.java:302)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1145)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1067)
+at org.testng.TestNG.runSuites(TestNG.java:997)
+at org.testng.TestNG.run(TestNG.java:965)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test02_createbid -->
+        <test-method status="FAIL" signature="test03_reviewpass()[pri:0, instance:testcase.CreateMarginBid_02@2bbaf4f0]" name="test03_reviewpass" duration-ms="61813" started-at="2020-04-27T09:31:42 CST" finished-at="2020-04-27T09:32:44 CST">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=81.0.4044.122)
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'DESKTOP-SPO73RG', ip: '172.18.18.220', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}), userDataDir=C:\Windows\TEMP\scoped_dir23244_171127660}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=XP, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:37737}, acceptInsecureCerts=false, browserVersion=81.0.4044.122, browserName=chrome, javascriptEnabled=true, platformName=XP, setWindowRect=true, webauthn:virtualAuthenticators=true}]
+Session ID: 94b55a6f413367662c7947919197284f]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=81.0.4044.122)
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'DESKTOP-SPO73RG', ip: '172.18.18.220', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}), userDataDir=C:\Windows\TEMP\scoped_dir23244_171127660}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=XP, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:37737}, acceptInsecureCerts=false, browserVersion=81.0.4044.122, browserName=chrome, javascriptEnabled=true, platformName=XP, setWindowRect=true, webauthn:virtualAuthenticators=true}]
+Session ID: 94b55a6f413367662c7947919197284f
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:275)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
+at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy5.click(Unknown Source)
+at pagefactory.BiddingReviewFactory.setMenV2list(BiddingReviewFactory.java:39)
+at pageobject.BiddingReviewObject.biddingreview_pass(BiddingReviewObject.java:32)
+at utils.ReviewBid.biddingreview_pass(ReviewBid.java:30)
+at testcase.CreateMarginBid_02.test03_reviewpass(CreateMarginBid_02.java:80)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:131)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:658)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:792)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1103)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:140)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:398)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:392)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:354)
+at org.testng.SuiteRunner.run(SuiteRunner.java:302)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1145)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1067)
+at org.testng.TestNG.runSuites(TestNG.java:997)
+at org.testng.TestNG.run(TestNG.java:965)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test03_reviewpass -->
+        <test-method status="FAIL" signature="test04_buyerbid()[pri:0, instance:testcase.CreateMarginBid_02@2bbaf4f0]" name="test04_buyerbid" duration-ms="38793" started-at="2020-04-27T09:32:44 CST" finished-at="2020-04-27T09:33:22 CST">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=81.0.4044.122)
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'DESKTOP-SPO73RG', ip: '172.18.18.220', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}), userDataDir=C:\Windows\TEMP\scoped_dir12148_726235572}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=XP, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:37876}, acceptInsecureCerts=false, browserVersion=81.0.4044.122, browserName=chrome, javascriptEnabled=true, platformName=XP, setWindowRect=true, webauthn:virtualAuthenticators=true}]
+Session ID: 003377f6a41930365c46ae9f0de1a37f]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=81.0.4044.122)
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'DESKTOP-SPO73RG', ip: '172.18.18.220', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}), userDataDir=C:\Windows\TEMP\scoped_dir12148_726235572}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=XP, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:37876}, acceptInsecureCerts=false, browserVersion=81.0.4044.122, browserName=chrome, javascriptEnabled=true, platformName=XP, setWindowRect=true, webauthn:virtualAuthenticators=true}]
+Session ID: 003377f6a41930365c46ae9f0de1a37f
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:275)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
+at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy5.click(Unknown Source)
+at pagefactory.Create_MarginorderFactory.setCreatebid2responsebotton(Create_MarginorderFactory.java:491)
+at pageobject.PlaceBidObject.PlaceBidwithadr(PlaceBidObject.java:38)
+at utils.BuyerMarginbid.PlaceBidwithadr(BuyerMarginbid.java:30)
+at testcase.CreateMarginBid_02.test04_buyerbid(CreateMarginBid_02.java:88)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:131)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:658)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:792)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1103)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:140)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:398)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:392)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:354)
+at org.testng.SuiteRunner.run(SuiteRunner.java:302)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1145)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1067)
+at org.testng.TestNG.runSuites(TestNG.java:997)
+at org.testng.TestNG.run(TestNG.java:965)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test04_buyerbid -->
+      </class> <!-- testcase.CreateMarginBid_02 -->
+      <class name="testcase.CreateMarginBid_03">
+        <test-method status="PASS" signature="test01_loginfront_sell()[pri:0, instance:testcase.CreateMarginBid_03@11c20519]" name="test01_loginfront_sell" duration-ms="35376" started-at="2020-04-27T09:33:22 CST" finished-at="2020-04-27T09:33:58 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test01_loginfront_sell -->
+        <test-method status="PASS" signature="test02_createbid()[pri:0, instance:testcase.CreateMarginBid_03@11c20519]" name="test02_createbid" duration-ms="30578" started-at="2020-04-27T09:33:58 CST" finished-at="2020-04-27T09:34:28 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test02_createbid -->
+        <test-method status="PASS" signature="test03_reviewpass()[pri:0, instance:testcase.CreateMarginBid_03@11c20519]" name="test03_reviewpass" duration-ms="25066" started-at="2020-04-27T09:34:28 CST" finished-at="2020-04-27T09:34:54 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test03_reviewpass -->
+        <test-method status="PASS" signature="test04_buyerbid()[pri:0, instance:testcase.CreateMarginBid_03@11c20519]" name="test04_buyerbid" duration-ms="242498" started-at="2020-04-27T09:34:54 CST" finished-at="2020-04-27T09:38:56 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test04_buyerbid -->
+      </class> <!-- testcase.CreateMarginBid_03 -->
+      <class name="testcase.CreateMarginBid_01">
+        <test-method status="PASS" signature="test01_loginfront_sell()[pri:0, instance:testcase.CreateMarginBid_01@2d127a61]" name="test01_loginfront_sell" duration-ms="6470" started-at="2020-04-27T09:26:38 CST" finished-at="2020-04-27T09:26:44 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test01_loginfront_sell -->
+        <test-method status="FAIL" signature="test02_createbid()[pri:0, instance:testcase.CreateMarginBid_01@2d127a61]" name="test02_createbid" duration-ms="1596" started-at="2020-04-27T09:26:44 CST" finished-at="2020-04-27T09:26:46 CST">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[Element <a href="#"> could not be scrolled into view
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'DESKTOP-SPO73RG', ip: '172.18.18.220', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Windows\Temp\rust_mozprofilehCdt6Y, rotatable=false, moz:geckodriverVersion=0.26.0, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=XP, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, browserVersion=75.0, moz:shutdownTimeout=60000, platformVersion=10.0, moz:processID=8708, browserName=firefox, javascriptEnabled=true, moz:buildID=20200403170909, platformName=XP, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: 436cdd46-83d9-45be-a9d8-052fc57b6d11]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: Element <a href="#"> could not be scrolled into view
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'DESKTOP-SPO73RG', ip: '172.18.18.220', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Windows\Temp\rust_mozprofilehCdt6Y, rotatable=false, moz:geckodriverVersion=0.26.0, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=XP, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, browserVersion=75.0, moz:shutdownTimeout=60000, platformVersion=10.0, moz:processID=8708, browserName=firefox, javascriptEnabled=true, moz:buildID=20200403170909, platformName=XP, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: 436cdd46-83d9-45be-a9d8-052fc57b6d11
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:275)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy5.click(Unknown Source)
+at pagefactory.Create_MarginorderFactory.setSellerPage_menu(Create_MarginorderFactory.java:32)
+at pageobject.CreateMarginBidObject.CreateMarginBid1(CreateMarginBidObject.java:40)
+at testcase.CreateMarginBid_01.test02_createbid(CreateMarginBid_01.java:65)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:131)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:658)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:792)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1103)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:140)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:398)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:392)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:354)
+at org.testng.SuiteRunner.run(SuiteRunner.java:302)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1145)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1067)
+at org.testng.TestNG.runSuites(TestNG.java:997)
+at org.testng.TestNG.run(TestNG.java:965)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test02_createbid -->
+        <test-method status="FAIL" signature="test03_check()[pri:0, instance:testcase.CreateMarginBid_01@2d127a61]" name="test03_check" duration-ms="23265" started-at="2020-04-27T09:26:46 CST" finished-at="2020-04-27T09:27:09 CST">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='audit_not_pass']"}
+  (Session info: chrome=81.0.4044.122)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'DESKTOP-SPO73RG', ip: '172.18.18.220', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}), userDataDir=C:\Windows\TEMP\scoped_dir764_800485305}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=XP, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:37179}, acceptInsecureCerts=false, browserVersion=81.0.4044.122, browserName=chrome, javascriptEnabled=true, platformName=XP, setWindowRect=true, webauthn:virtualAuthenticators=true}]
+Session ID: 84a2e3f22bf4f53d3c7a61f1d976e6db
+*** Element info: {Using=xpath, value=//*[@id='audit_not_pass']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='audit_not_pass']"}
+  (Session info: chrome=81.0.4044.122)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'DESKTOP-SPO73RG', ip: '172.18.18.220', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}), userDataDir=C:\Windows\TEMP\scoped_dir764_800485305}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=XP, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:37179}, acceptInsecureCerts=false, browserVersion=81.0.4044.122, browserName=chrome, javascriptEnabled=true, platformName=XP, setWindowRect=true, webauthn:virtualAuthenticators=true}]
+Session ID: 84a2e3f22bf4f53d3c7a61f1d976e6db
+*** Element info: {Using=xpath, value=//*[@id='audit_not_pass']}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:518)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy5.click(Unknown Source)
+at pagefactory.BiddingReviewFactory.setAudit_not_pass(BiddingReviewFactory.java:80)
+at pageobject.BiddingReviewObject.biddingreview_notpass(BiddingReviewObject.java:74)
+at utils.ReviewBid.biddingreview_notpass(ReviewBid.java:36)
+at testcase.CreateMarginBid_01.test03_check(CreateMarginBid_01.java:74)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:131)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:658)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:792)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1103)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:140)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:398)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:392)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:354)
+at org.testng.SuiteRunner.run(SuiteRunner.java:302)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1145)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1067)
+at org.testng.TestNG.runSuites(TestNG.java:997)
+at org.testng.TestNG.run(TestNG.java:965)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test03_check -->
+      </class> <!-- testcase.CreateMarginBid_01 -->
+    </test> <!-- test12 -->
+  </suite> <!-- Suite1 -->
+</testng-results>

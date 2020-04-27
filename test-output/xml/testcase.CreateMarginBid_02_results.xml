@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test12"
+           tests="4"
+           failures="3"
+           errors="0"
+           skipped="0"
+           time="31.520">
+  <properties />
+            <testcase name="test04_buyerbid" time="2.094" classname="testcase.CreateMarginBid_02">
+                <failure type="org.openqa.selenium.SessionNotCreatedException"
+                  message="session not created
+from disconnected: received Inspector.detached event
+  (Session info: chrome=81.0.4044.113)
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
+System info: host: &apos;DESKTOP-SPO73RG&apos;, ip: &apos;172.18.18.220&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x015D5F73+2449267]
+	Ordinal0 [0x01508361+1606497]
+	Ordinal0 [0x013FF969+522601]
+	Ordinal0 [0x013F8179+491897]
+	Ordinal0 [0x013F7D8C+490892]
+	Ordinal0 [0x013F7686+489094]
+	Ordinal0 [0x013F6C8C+486540]
+	Ordinal0 [0x013F6EC5+487109]
+	Ordinal0 [0x013F6905+485637]
+	Ordinal0 [0x013FB834+505908]
+	Ordinal0 [0x013F68C2+485570]
+	Ordinal0 [0x013F7329+488233]
+	Ordinal0 [0x013F6C8C+486540]
+	Ordinal0 [0x013F6EC5+487109]
+	Ordinal0 [0x013F6905+485637]
+	Ordinal0 [0x013FADB7+503223]
+	Ordinal0 [0x013F68C2+485570]
+	Ordinal0 [0x013F7329+488233]
+	Ordinal0 [0x013F6C8C+486540]
+	Ordinal0 [0x013F6EC5+487109]
+	Ordinal0 [0x013F6905+485637]
+	Ordinal0 [0x013F31AC+471468]
+	Ordinal0 [0x013F68C2+485570]
+	Ordinal0 [0x013F6817+485399]
+	Ordinal0 [0x01400600+525824]
+	Ordinal0 [0x013ACBB9+183225]
+	Ordinal0 [0x013ABF2D+180013]
+	Ordinal0 [0x013A9E5B+171611]
+	Ordinal0 [0x01391DD8+73176]
+	Ordinal0 [0x01392E50+77392]
+	Ordinal0 [0x01392DE9+77289]
+	Ordinal0 [0x0151D8D7+1693911]
+	GetHandleVerifier [0x01674036+522726]
+	GetHandleVerifier [0x01673D74+522020]
+	GetHandleVerifier [0x01689187+609079]
+	GetHandleVerifier [0x016748A6+524886]
+	Ordinal0 [0x01515CBC+1662140]
+	Ordinal0 [0x0151F23B+1700411]
+	Ordinal0 [0x0151F3A3+1700771]
+	Ordinal0 [0x01535215+1790485]
+	BaseThreadInitThunk [0x75270419+25]
+	RtlGetAppContainerNamedObjectPath [0x776C66DD+237]
+	RtlGetAppContainerNamedObjectPath [0x776C66AD+189]
+"
+              >
+<![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created
+from disconnected: received Inspector.detached event
+  (Session info: chrome=81.0.4044.113)
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'DESKTOP-SPO73RG', ip: '172.18.18.220', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x015D5F73+2449267]
+	Ordinal0 [0x01508361+1606497]
+	Ordinal0 [0x013FF969+522601]
+	Ordinal0 [0x013F8179+491897]
+	Ordinal0 [0x013F7D8C+490892]
+	Ordinal0 [0x013F7686+489094]
+	Ordinal0 [0x013F6C8C+486540]
+	Ordinal0 [0x013F6EC5+487109]
+	Ordinal0 [0x013F6905+485637]
+	Ordinal0 [0x013FB834+505908]
+	Ordinal0 [0x013F68C2+485570]
+	Ordinal0 [0x013F7329+488233]
+	Ordinal0 [0x013F6C8C+486540]
+	Ordinal0 [0x013F6EC5+487109]
+	Ordinal0 [0x013F6905+485637]
+	Ordinal0 [0x013FADB7+503223]
+	Ordinal0 [0x013F68C2+485570]
+	Ordinal0 [0x013F7329+488233]
+	Ordinal0 [0x013F6C8C+486540]
+	Ordinal0 [0x013F6EC5+487109]
+	Ordinal0 [0x013F6905+485637]
+	Ordinal0 [0x013F31AC+471468]
+	Ordinal0 [0x013F68C2+485570]
+	Ordinal0 [0x013F6817+485399]
+	Ordinal0 [0x01400600+525824]
+	Ordinal0 [0x013ACBB9+183225]
+	Ordinal0 [0x013ABF2D+180013]
+	Ordinal0 [0x013A9E5B+171611]
+	Ordinal0 [0x01391DD8+73176]
+	Ordinal0 [0x01392E50+77392]
+	Ordinal0 [0x01392DE9+77289]
+	Ordinal0 [0x0151D8D7+1693911]
+	GetHandleVerifier [0x01674036+522726]
+	GetHandleVerifier [0x01673D74+522020]
+	GetHandleVerifier [0x01689187+609079]
+	GetHandleVerifier [0x016748A6+524886]
+	Ordinal0 [0x01515CBC+1662140]
+	Ordinal0 [0x0151F23B+1700411]
+	Ordinal0 [0x0151F3A3+1700771]
+	Ordinal0 [0x01535215+1790485]
+	BaseThreadInitThunk [0x75270419+25]
+	RtlGetAppContainerNamedObjectPath [0x776C66DD+237]
+	RtlGetAppContainerNamedObjectPath [0x776C66AD+189]
+
+  sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+  sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+  sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+  java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+  org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+  org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+  org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$24(ProtocolHandshake.java:359)
+  java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+  java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+  java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+  java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+  java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+  java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+  java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+  java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+  java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+  org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:362)
+  org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+  org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+  org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+  org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:255)
+  org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:237)
+  org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:138)
+  org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+  org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+  org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+  utils.BuyerMarginbid.loginfront_buyer(BuyerMarginbid.java:20)
+  testcase.CreateMarginBid_02.test04_buyerbid(CreateMarginBid_02.java:87)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:131)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:658)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:792)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1103)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:140)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+  org.testng.TestRunner.privateRun(TestRunner.java:739)
+  org.testng.TestRunner.run(TestRunner.java:589)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:398)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:392)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:354)
+  org.testng.SuiteRunner.run(SuiteRunner.java:302)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1145)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1067)
+  org.testng.TestNG.runSuites(TestNG.java:997)
+  org.testng.TestNG.run(TestNG.java:965)
+  com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+  com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="test02_createbid" time="13.900" classname="testcase.CreateMarginBid_02">
+                <failure type="java.lang.NullPointerException"
+                  message="(null)"
+              >
+<![CDATA[java.lang.NullPointerException
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+  com.sun.proxy.$Proxy6.sendKeys(Unknown Source)
+  pagefactory.Create_MarginorderFactory.setOrderName(Create_MarginorderFactory.java:180)
+  pageobject.CreateMarginBidObject.CreateMarginBid1(CreateMarginBidObject.java:60)
+  testcase.CreateMarginBid_02.test02_createbid(CreateMarginBid_02.java:71)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:131)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:658)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:792)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1103)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:140)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+  org.testng.TestRunner.privateRun(TestRunner.java:739)
+  org.testng.TestRunner.run(TestRunner.java:589)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:398)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:392)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:354)
+  org.testng.SuiteRunner.run(SuiteRunner.java:302)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1145)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1067)
+  org.testng.TestNG.runSuites(TestNG.java:997)
+  org.testng.TestNG.run(TestNG.java:965)
+  com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+  com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="test03_reviewpass" time="2.366" classname="testcase.CreateMarginBid_02">
+                <failure type="org.openqa.selenium.WebDriverException"
+                  message="unknown error: cannot determine loading status
+from disconnected: received Inspector.detached event
+  (Session info: chrome=81.0.4044.113)
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
+System info: host: &apos;DESKTOP-SPO73RG&apos;, ip: &apos;172.18.18.220&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}), userDataDir=C:\Users\Jomi\AppData\Local\Temp\scoped_dir8836_486890082}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=XP, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:50549}, acceptInsecureCerts=false, browserVersion=81.0.4044.113, browserName=chrome, javascriptEnabled=true, platformName=XP, setWindowRect=true, webauthn:virtualAuthenticators=true}]
+Session ID: c24488373c66ceff8581cf77b6491f2a"
+              >
+<![CDATA[org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from disconnected: received Inspector.detached event
+  (Session info: chrome=81.0.4044.113)
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'DESKTOP-SPO73RG', ip: '172.18.18.220', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}), userDataDir=C:\Users\Jomi\AppData\Local\Temp\scoped_dir8836_486890082}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=XP, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:50549}, acceptInsecureCerts=false, browserVersion=81.0.4044.113, browserName=chrome, javascriptEnabled=true, platformName=XP, setWindowRect=true, webauthn:virtualAuthenticators=true}]
+Session ID: c24488373c66ceff8581cf77b6491f2a
+  sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+  sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+  sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+  java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+  org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+  org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+  org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+  org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+  org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+  org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:370)
+  utils.ReviewBid.loginback(ReviewBid.java:22)
+  testcase.CreateMarginBid_02.test03_reviewpass(CreateMarginBid_02.java:79)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:131)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:658)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:792)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1103)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:140)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+  org.testng.TestRunner.privateRun(TestRunner.java:739)
+  org.testng.TestRunner.run(TestRunner.java:589)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:398)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:392)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:354)
+  org.testng.SuiteRunner.run(SuiteRunner.java:302)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1145)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1067)
+  org.testng.TestNG.runSuites(TestNG.java:997)
+  org.testng.TestNG.run(TestNG.java:965)
+  com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+  com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
+]]>
+      </failure>
+
+          </testcase>
+  
+  
+            <testcase name="test01_loginfront_sell" time="13.160" classname="testcase.CreateMarginBid_02" />
+      
+</testsuite>

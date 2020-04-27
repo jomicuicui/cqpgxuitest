@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test12"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="333.518">
+  <properties />
+  
+  
+            <testcase name="test03_reviewpass" time="25.066" classname="testcase.CreateMarginBid_03" />
+                <testcase name="test02_createbid" time="30.578" classname="testcase.CreateMarginBid_03" />
+                <testcase name="test04_buyerbid" time="242.498" classname="testcase.CreateMarginBid_03" />
+                <testcase name="test01_loginfront_sell" time="35.376" classname="testcase.CreateMarginBid_03" />
+      
+</testsuite>

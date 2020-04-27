@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite1]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test thread-count="1" verbose="0" name="test12(failed)">
+    <classes>
+      <class name="testcase.CreateMarginBid_01">
+        <methods>
+          <include name="test02_createbid"/>
+          <include name="test03_check"/>
+        </methods>
+      </class> <!-- testcase.CreateMarginBid_01 -->
+      <class name="testcase.CreateMarginBid_02">
+        <methods>
+          <include name="test04_buyerbid"/>
+          <include name="test03_reviewpass"/>
+          <include name="test02_createbid"/>
+        </methods>
+      </class> <!-- testcase.CreateMarginBid_02 -->
+    </classes>
+  </test> <!-- test12(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

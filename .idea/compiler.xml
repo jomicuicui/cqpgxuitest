@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="importent_case - 副本" />
+        <module name="20200414" />
+        <module name="20200414 - 副本" />
+        <module name="bigdata" />
+        <module name="importent_case" />
+        <module name="main" />
+        <module name="20200414test" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite1">
+    <test name="test12" preserve-order="true">
+        <classes>
+<!--&lt;!&ndash;保证金竞标&ndash;&gt;-->
+            <class name="testcase.CreateMarginBid_01"/>
+            <class name="testcase.CreateMarginBid_02"/>
+            <class name="testcase.CreateMarginBid_03"/>
+<!--            <class name="testcase.CreateMarginBid_04"/>-->
+<!--            <class name="testcase.CreateMarginBid_05"/>-->
+<!--            <class name="testcase.CreateMarginBid_06"/>-->
+<!--            <class name="testcase.CreateMarginBid_07"/>-->
+<!--仓单竞标-->
+<!--            <class name="testcase.CreatewsBid_01"/>-->
+<!--            <class name="testcase.CreatewsBid_02"/>-->
+<!--            <class name="testcase.CreatewsBid_03"/>-->
+<!--            <class name="testcase.CreatewsBid_04"/>-->
+<!--            <class name="testcase.CreatewsBid_05"/>-->
+<!--            <class name="testcase.CreatewsBid_06"/>-->
+<!--&lt;!&ndash;储单竞标&ndash;&gt;-->
+<!--            <class name="testcase.CreatewhBid_01"/>-->
+<!--            <class name="testcase.CreatewhBid_02"/>-->
+<!--            <class name="testcase.CreatewhBid_03"/>-->
+
+<!--&lt;!&ndash;保证金竞拍&ndash;&gt;-->
+<!--            <class name="testcase.CreateMarginAuction_01"/>-->
+<!--            <class name="testcase.CreateMarginAuction_02"/>-->
+<!--            <class name="testcase.CreateMarginAuction_03"/>-->
+<!--            <class name="testcase.CreateMarginAuction_04"/>-->
+<!--            <class name="testcase.CreateMarginAuction_05"/>-->
+<!--            <class name="testcase.CreateMarginAuction_06"/>-->
+<!--            <class name="testcase.CreateMarginAuction_07"/>-->
+
+<!--&lt;!&ndash;仓单竞拍&ndash;&gt;-->
+<!--            <class name="testcase.CreatewsAuction_01"/>-->
+<!--            <class name="testcase.CreatewsAuction_02"/>-->
+<!--            <class name="testcase.CreatewsAuction_03"/>-->
+<!--            <class name="testcase.CreatewsAuction_04"/>-->
+<!--            <class name="testcase.CreatewsAuction_05"/>-->
+<!--            <class name="testcase.CreatewsAuction_06"/>-->
+
+<!--&lt;!&ndash;储单竞拍&ndash;&gt;-->
+<!--            <class name="testcase.CreatewhAuction_01"/>-->
+<!--            <class name="testcase.CreatewhAuction_02"/>-->
+<!--            <class name="testcase.CreatewhAuction_03"/>-->
+
+
+<!--&lt;!&ndash;保证金挂牌&ndash;&gt;-->
+<!--            <class name="testcase.CreateMarginListing_01"/>-->
+<!--            <class name="testcase.CreateMarginListing_02"/>-->
+<!--            <class name="testcase.CreateMarginListing_03"/>-->
+<!--            <class name="testcase.CreateMarginListing_04"/>-->
+<!--            <class name="testcase.CreateMarginListing_05"/>-->
+<!--            <class name="testcase.CreateMarginListing_06"/>-->
+<!--            <class name="testcase.CreateMarginListing_07"/>-->
+<!--            <class name="testcase.CreateMarginListing_08"/>-->
+<!--            <class name="testcase.CreateMarginListing_09"/>-->
+<!--            <class name="testcase.CreateMarginListing_10"/>-->
+<!--            <class name="testcase.CreateMarginListing_11"/>-->
+<!--            <class name="testcase.CreateMarginListing_12"/>-->
+<!--            <class name="testcase.CreateMarginListing_13"/>-->
+<!--            <class name="testcase.CreateMarginListing_14"/>-->
+<!--            <class name="testcase.CreateMarginListing_15"/>-->
+
+<!--&lt;!&ndash;仓单挂牌&ndash;&gt;-->
+<!--            <class name="testcase.CreatewsListing_01"/>-->
+<!--            <class name="testcase.CreatewsListing_02"/>-->
+<!--            <class name="testcase.CreatewsListing_03"/>-->
+<!--            <class name="testcase.CreatewsListing_04"/>-->
+<!--            <class name="testcase.CreatewsListing_05"/>-->
+<!--            <class name="testcase.CreatewsListing_06"/>-->
+
+<!-- &lt;!&ndash;储单挂牌&ndash;&gt;-->
+<!--            <class name="testcase.CreatewhListing_01"/>-->
+<!--            <class name="testcase.CreatewhListing_02"/>-->
+
+<!--&lt;!&ndash;保证金协议&ndash;&gt;-->
+<!--            <class name="testcase.CreateMarginAgreement_01"/>-->
+<!--            <class name="testcase.CreateMarginAgreement_02"/>-->
+<!--            <class name="testcase.CreateMarginAgreement_03"/>-->
+<!--            <class name="testcase.CreateMarginAgreement_04"/>-->
+<!--            <class name="testcase.CreateMarginAgreement_05"/>-->
+<!--            <class name="testcase.CreateMarginAgreement_06"/>-->
+<!--            <class name="testcase.CreateMarginAgreement_07"/>-->
+<!--            <class name="testcase.CreateMarginAgreement_08"/>-->
+<!--            <class name="testcase.CreateMarginAgreement_09"/>-->
+<!--            <class name="testcase.CreateMarginAgreement_10"/>-->
+<!--            <class name="testcase.CreateMarginAgreement_11"/>-->
+<!--            <class name="testcase.CreateMarginAgreement_12"/>-->
+
+
+        </classes>
+    </test>
+<!--    自动生成测试报告-->
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"></listener>
+    </listeners>
+    
+    
+    
+    
+</suite>
+
